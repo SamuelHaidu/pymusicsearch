@@ -2,15 +2,15 @@
 
 * **PyMusicSearch can:*
  
- *Search videos
+     *Search videos
  
- *Get the top100 in youtube music
+     *Get the top100 in youtube music
  
- *Make a artist search in Discogs
+     *Make a artist search in Discogs
  
- *Get the albuns of artist(listed in Discogs from url)
+     *Get the albuns of artist(listed in Discogs from url)
  
- *Get the tracks of album(listed in Discogs from url)
+     *Get the tracks of album(listed in Discogs from url)
  
 
 
