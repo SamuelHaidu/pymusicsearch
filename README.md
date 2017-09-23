@@ -67,6 +67,7 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
     '''artists[i] = {'name': name, 
                      'url': url, 
                      'image': imageurl}'''
+#                     
 ###### pyms.getAlbunsFromArtist(artisturl)
     import pyms
     query = ‘Sofi Tukker’
