@@ -23,7 +23,6 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
 #
 ###### pyms.YTSearchVideos(query)
 #
-#
     import pyms 
     query = ‘DJ Snake Turn down for what’ 
     videos = pyms.YTSearchVideos(query) 
@@ -39,7 +38,6 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
 
 ###### pyms.YTSearchMusicOfArtist(query)
 #
-#
     import pyms 
     query = ‘The Doors’ 
     videos = pyms.YTSearchMusicOfArtist(query) 
@@ -52,7 +50,6 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
                 'link':videolink}'''
 ###### pyms.getYTMusicTop()
 #
-#
     import pyms
     videos = pyms.getYTMusicTop()
     for video in videos[:10]: 
@@ -64,7 +61,6 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
                     'thumbnail': thumbnailurl}'''
 ###### pyms.artistSearch(query, limit=5)
 #
-#
     import pyms
     query = ‘Joy Divison’
     artists =  pyms.artistSearch(query)
@@ -74,7 +70,6 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
                      'url': url, 
                      'image': imageurl}'''
 ###### pyms.getAlbunsFromArtist(artisturl)
-#
 #
     import pyms
     query = ‘Sofi Tukker’
@@ -90,7 +85,6 @@ PyMusicSearch is a simple module for search music in youtube and music info in d
                            'country': country, 
                            'recorder': recorders}'''
 ###### pyms.getTracksFromAlbum(albumurl):
-#
 #
     import pyms
     query = ‘Tame Impala’
